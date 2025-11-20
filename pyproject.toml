@@ -1,0 +1,15 @@
+
+[build-system]
+requires=["setuptools","wheel"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="summarizer"
+version="0.1.0"
+description="Browser history summarizer"
+authors=[{name="Your Name", email="you@example.com"}]
+requires-python=">=3.9"
+
+[project.scripts]
+summarizer = "summarizer.main:cli"
+

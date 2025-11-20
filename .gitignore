@@ -1,0 +1,110 @@
+# ============================================
+# Python build artifacts
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+htmlcov/
+.cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# macOS / System
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# ============================================
+# Project-specific
+# ============================================
+
+# Obsidian vaults or generated markdown
+browser-summaries/
+.obsidian/
+*.md.backup
+daily/
+weekly/
+
+# Local config overrides
+config_local.py
+.env
+.env.*
+
+# ============================================
+# Optional: Packaging tools
+# ============================================
+# pip install -e build artifacts
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+*.whl
+*.lock
+
+# ============================================
+# VSCode & JetBrains project metadata
+# ============================================
+.vscode/
+.idea/
+*.iml
+
+# ============================================
+# Miscellaneous
+# ============================================
+# Temporary downloads or data
+/tmp/
+*.csv
+*.json
+*.sqlite
+*.db
+
+# Backup archives
+*.zip
+*.tar
+*.gz
